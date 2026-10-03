@@ -1,0 +1,20 @@
+﻿width=390 scale=5 mode=gap polls=3 corePx=0 brightPx=1037   at shot: brightPx=1102 mouthCellPx=0
+bright columns at shot: 25..30   (red snout ends col 23, mouth cells 24-25) -> core on the 2nd mouth cell: still inside the mouth
+worst case captured: NO bright block on mouth cell 24 -> check the raw band
+raw mouth band, rows 7-9   (hot/body = bright masks, soft = faded 40%-alpha block)
+  col 19  maxR=225  maxG=8  hot=0  body=0  soft=0
+  col 20  maxR=225  maxG=8  hot=0  body=0  soft=0
+  col 21  maxR=225  maxG=8  hot=0  body=0  soft=0
+  col 22  maxR=225  maxG=6  hot=0  body=0  soft=0
+  col 23  maxR=227  maxG=14  hot=0  body=0  soft=0
+  col 24  maxR=243  maxG=89  hot=0  body=0  soft=9
+  col 25  maxR=255  maxG=138  hot=0  body=83  soft=44
+  col 26  maxR=255  maxG=138  hot=0  body=155  soft=1
+  col 27  maxR=255  maxG=139  hot=0  body=169  soft=0
+  col 28  maxR=255  maxG=139  hot=0  body=176  soft=0
+  col 29  maxR=255  maxG=138  hot=0  body=172  soft=0
+  col 30  maxR=255  maxG=138  hot=0  body=90  soft=0
+  col 31  maxR=0  maxG=0  hot=0  body=0  soft=0
+sprite snout tip col 24 -> mouth cells 25-26, leftmost flame col 24 -> flame starts -1 cell(s) right of the snout tip
+WELDED: flame covers the mouth cell that touches the snout
+canvas css=272x128 backing=272x128 -> C:\Xampp\htdocs\Trade_Ryuusd\_dragon-gap.png

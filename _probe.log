@@ -1,0 +1,3718 @@
+=== 320
+{
+ "viewport": {
+  "innerWidth": 320,
+  "clientWidth": 320,
+  "scrollWidth": 320,
+  "bodyScrollW": 320
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 306,
+   "w": 292,
+   "scrollW": 291,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 111.7,
+   "right": 208.3,
+   "w": 96.7,
+   "scrollW": 97,
+   "font": "15.2px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 39.8,
+   "right": 280.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 41,
+   "right": 279,
+   "w": 238,
+   "scrollW": 238,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 85.9,
+   "right": 234.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 257,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 257,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 64.3,
+   "right": 274.6,
+   "w": 210.3,
+   "scrollW": 210,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 306,
+   "w": 292,
+   "scrollW": 292,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 360
+{
+ "viewport": {
+  "innerWidth": 360,
+  "clientWidth": 360,
+  "scrollWidth": 360,
+  "bodyScrollW": 360
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 346,
+   "w": 332,
+   "scrollW": 331,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 127.3,
+   "right": 232.7,
+   "w": 105.3,
+   "scrollW": 105,
+   "font": "16.56px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 59.8,
+   "right": 300.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 44,
+   "right": 316,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 105.9,
+   "right": 254.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 294,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 294,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 68.4,
+   "right": 311,
+   "w": 242.6,
+   "scrollW": 243,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 346,
+   "w": 332,
+   "scrollW": 332,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 390
+{
+ "viewport": {
+  "innerWidth": 390,
+  "clientWidth": 390,
+  "scrollWidth": 390,
+  "bodyScrollW": 390
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 361,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 137.9,
+   "right": 252,
+   "w": 114.1,
+   "scrollW": 114,
+   "font": "17.94px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 74.8,
+   "right": 315.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 59,
+   "right": 331,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 120.9,
+   "right": 269.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 73.7,
+   "right": 336.5,
+   "w": 262.8,
+   "scrollW": 263,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 362,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 414
+{
+ "viewport": {
+  "innerWidth": 414,
+  "clientWidth": 414,
+  "scrollWidth": 414,
+  "bodyScrollW": 414
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 400,
+   "w": 386,
+   "scrollW": 385,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 146.4,
+   "right": 267.5,
+   "w": 121.1,
+   "scrollW": 121,
+   "font": "19.044px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 86.8,
+   "right": 327.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 71,
+   "right": 343,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 132.9,
+   "right": 281.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 343,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 343,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 78.1,
+   "right": 356.9,
+   "w": 278.8,
+   "scrollW": 279,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 400,
+   "w": 386,
+   "scrollW": 386,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 768
+{
+ "viewport": {
+  "innerWidth": 768,
+  "clientWidth": 768,
+  "scrollWidth": 768,
+  "bodyScrollW": 768
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 144,
+   "right": 624,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 317.8,
+   "right": 450.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 263.8,
+   "right": 504.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 248,
+   "right": 520,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 309.9,
+   "right": 458.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 250.9,
+   "right": 538.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 167.4,
+   "right": 600.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 1280
+{
+ "viewport": {
+  "innerWidth": 1280,
+  "clientWidth": 1280,
+  "scrollWidth": 1280,
+  "bodyScrollW": 1280
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 400,
+   "right": 880,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 573.8,
+   "right": 706.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 519.8,
+   "right": 760.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 504,
+   "right": 776,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 565.9,
+   "right": 714.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 506.9,
+   "right": 794.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 423.4,
+   "right": 856.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 280
+{
+ "viewport": {
+  "innerWidth": 280,
+  "clientWidth": 280,
+  "scrollWidth": 280,
+  "bodyScrollW": 280
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 266,
+   "w": 252,
+   "scrollW": 251,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 222,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 91.7,
+   "right": 188.3,
+   "w": 96.7,
+   "scrollW": 97,
+   "font": "15.2px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 222,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 236,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 38,
+   "right": 242,
+   "w": 204,
+   "scrollW": 204,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 65.9,
+   "right": 214.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 222,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 218,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 218,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 63.9,
+   "right": 235,
+   "w": 171.1,
+   "scrollW": 171,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 29,
+   "right": 251,
+   "w": 222,
+   "scrollW": 222,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 266,
+   "w": 252,
+   "scrollW": 252,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 300
+{
+ "viewport": {
+  "innerWidth": 300,
+  "clientWidth": 300,
+  "scrollWidth": 300,
+  "bodyScrollW": 300
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 286,
+   "w": 272,
+   "scrollW": 271,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 29,
+   "right": 271,
+   "w": 242,
+   "scrollW": 242,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 101.7,
+   "right": 198.3,
+   "w": 96.7,
+   "scrollW": 97,
+   "font": "15.2px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 29.8,
+   "right": 270.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 29,
+   "right": 271,
+   "w": 242,
+   "scrollW": 246,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 31,
+   "right": 269,
+   "w": 238,
+   "scrollW": 238,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 75.9,
+   "right": 224.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 29,
+   "right": 271,
+   "w": 242,
+   "scrollW": 242,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 29,
+   "right": 271,
+   "w": 242,
+   "scrollW": 238,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 29,
+   "right": 271,
+   "w": 242,
+   "scrollW": 238,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 63.9,
+   "right": 255,
+   "w": 191.1,
+   "scrollW": 191,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 29,
+   "right": 271,
+   "w": 242,
+   "scrollW": 242,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 286,
+   "w": 272,
+   "scrollW": 272,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 390
+{
+ "viewport": {
+  "innerWidth": 390,
+  "clientWidth": 390,
+  "scrollWidth": 390,
+  "bodyScrollW": 390
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 361,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 137.9,
+   "right": 252,
+   "w": 114.1,
+   "scrollW": 114,
+   "font": "17.94px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 74.8,
+   "right": 315.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 59,
+   "right": 331,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 120.9,
+   "right": 269.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 73.7,
+   "right": 336.5,
+   "w": 262.8,
+   "scrollW": 263,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 362,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 768
+{
+ "viewport": {
+  "innerWidth": 768,
+  "clientWidth": 768,
+  "scrollWidth": 768,
+  "bodyScrollW": 768
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 144,
+   "right": 624,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 317.8,
+   "right": 450.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 263.8,
+   "right": 504.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 248,
+   "right": 520,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 309.9,
+   "right": 458.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 250.9,
+   "right": 538.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 167.4,
+   "right": 600.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 390
+{
+ "viewport": {
+  "innerWidth": 390,
+  "clientWidth": 390,
+  "scrollWidth": 390,
+  "bodyScrollW": 390
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 361,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 137.9,
+   "right": 252,
+   "w": 114.1,
+   "scrollW": 114,
+   "font": "17.94px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 74.8,
+   "right": 315.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 59,
+   "right": 331,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 120.9,
+   "right": 269.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 73.7,
+   "right": 336.5,
+   "w": 262.8,
+   "scrollW": 263,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 362,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 768
+{
+ "viewport": {
+  "innerWidth": 768,
+  "clientWidth": 768,
+  "scrollWidth": 768,
+  "bodyScrollW": 768
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 144,
+   "right": 624,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 317.8,
+   "right": 450.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 263.8,
+   "right": 504.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 248,
+   "right": 520,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 309.9,
+   "right": 458.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 250.9,
+   "right": 538.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 167.4,
+   "right": 600.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 390
+{
+ "viewport": {
+  "innerWidth": 390,
+  "clientWidth": 390,
+  "scrollWidth": 390,
+  "bodyScrollW": 390
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 361,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 137.9,
+   "right": 252,
+   "w": 114.1,
+   "scrollW": 114,
+   "font": "17.94px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 74.8,
+   "right": 315.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 59,
+   "right": 331,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 120.9,
+   "right": 269.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 73.7,
+   "right": 336.5,
+   "w": 262.8,
+   "scrollW": 263,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 362,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 768
+{
+ "viewport": {
+  "innerWidth": 768,
+  "clientWidth": 768,
+  "scrollWidth": 768,
+  "bodyScrollW": 768
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 144,
+   "right": 624,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 317.8,
+   "right": 450.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 263.8,
+   "right": 504.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 248,
+   "right": 520,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 309.9,
+   "right": 458.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 250.9,
+   "right": 538.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 167.4,
+   "right": 600.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 320
+{
+ "viewport": {
+  "innerWidth": 320,
+  "clientWidth": 320,
+  "scrollWidth": 320,
+  "bodyScrollW": 320
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 306,
+   "w": 292,
+   "scrollW": 291,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 111.7,
+   "right": 208.3,
+   "w": 96.7,
+   "scrollW": 97,
+   "font": "15.2px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 39.8,
+   "right": 280.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 41,
+   "right": 279,
+   "w": 238,
+   "scrollW": 238,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 85.9,
+   "right": 234.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 257,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 257,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 64.3,
+   "right": 274.6,
+   "w": 210.3,
+   "scrollW": 210,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 306,
+   "w": 292,
+   "scrollW": 292,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 360
+{
+ "viewport": {
+  "innerWidth": 360,
+  "clientWidth": 360,
+  "scrollWidth": 360,
+  "bodyScrollW": 360
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 346,
+   "w": 332,
+   "scrollW": 331,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 127.3,
+   "right": 232.7,
+   "w": 105.3,
+   "scrollW": 105,
+   "font": "16.56px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 59.8,
+   "right": 300.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 44,
+   "right": 316,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 105.9,
+   "right": 254.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 294,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 294,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 68.4,
+   "right": 311,
+   "w": 242.6,
+   "scrollW": 243,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 346,
+   "w": 332,
+   "scrollW": 332,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 390
+{
+ "viewport": {
+  "innerWidth": 390,
+  "clientWidth": 390,
+  "scrollWidth": 390,
+  "bodyScrollW": 390
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 361,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 137.9,
+   "right": 252,
+   "w": 114.1,
+   "scrollW": 114,
+   "font": "17.94px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 74.8,
+   "right": 315.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 59,
+   "right": 331,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 120.9,
+   "right": 269.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 73.7,
+   "right": 336.5,
+   "w": 262.8,
+   "scrollW": 263,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 362,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 414
+{
+ "viewport": {
+  "innerWidth": 414,
+  "clientWidth": 414,
+  "scrollWidth": 414,
+  "bodyScrollW": 414
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 400,
+   "w": 386,
+   "scrollW": 385,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 146.4,
+   "right": 267.5,
+   "w": 121.1,
+   "scrollW": 121,
+   "font": "19.044px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 86.8,
+   "right": 327.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 71,
+   "right": 343,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 132.9,
+   "right": 281.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 343,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 343,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 78.1,
+   "right": 356.9,
+   "w": 278.8,
+   "scrollW": 279,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 400,
+   "w": 386,
+   "scrollW": 386,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 768
+{
+ "viewport": {
+  "innerWidth": 768,
+  "clientWidth": 768,
+  "scrollWidth": 768,
+  "bodyScrollW": 768
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 144,
+   "right": 624,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 317.8,
+   "right": 450.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 263.8,
+   "right": 504.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 248,
+   "right": 520,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 309.9,
+   "right": 458.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 250.9,
+   "right": 538.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 167.4,
+   "right": 600.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 1280
+{
+ "viewport": {
+  "innerWidth": 1280,
+  "clientWidth": 1280,
+  "scrollWidth": 1280,
+  "bodyScrollW": 1280
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 400,
+   "right": 880,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 573.8,
+   "right": 706.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 519.8,
+   "right": 760.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 504,
+   "right": 776,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 565.9,
+   "right": 714.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 506.9,
+   "right": 794.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 423.4,
+   "right": 856.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 320
+{
+ "viewport": {
+  "innerWidth": 320,
+  "clientWidth": 320,
+  "scrollWidth": 320,
+  "bodyScrollW": 320
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 306,
+   "w": 292,
+   "scrollW": 291,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 111.7,
+   "right": 208.3,
+   "w": 96.7,
+   "scrollW": 97,
+   "font": "15.2px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 39.8,
+   "right": 280.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 41,
+   "right": 279,
+   "w": 238,
+   "scrollW": 238,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 85.9,
+   "right": 234.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 257,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 257,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 64.3,
+   "right": 274.6,
+   "w": 210.3,
+   "scrollW": 210,
+   "font": "9.28px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 29.4,
+   "right": 290.6,
+   "w": 261.2,
+   "scrollW": 261,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 306,
+   "w": 292,
+   "scrollW": 292,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 360
+{
+ "viewport": {
+  "innerWidth": 360,
+  "clientWidth": 360,
+  "scrollWidth": 360,
+  "bodyScrollW": 360
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 346,
+   "w": 332,
+   "scrollW": 331,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 127.3,
+   "right": 232.7,
+   "w": 105.3,
+   "scrollW": 105,
+   "font": "16.56px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 59.8,
+   "right": 300.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 44,
+   "right": 316,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 105.9,
+   "right": 254.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 294,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 294,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 68.4,
+   "right": 311,
+   "w": 242.6,
+   "scrollW": 243,
+   "font": "9.72px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 31.2,
+   "right": 328.8,
+   "w": 297.6,
+   "scrollW": 298,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 346,
+   "w": 332,
+   "scrollW": 332,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 390
+{
+ "viewport": {
+  "innerWidth": 390,
+  "clientWidth": 390,
+  "scrollWidth": 390,
+  "bodyScrollW": 390
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 361,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 137.9,
+   "right": 252,
+   "w": 114.1,
+   "scrollW": 114,
+   "font": "17.94px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 74.8,
+   "right": 315.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 59,
+   "right": 331,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 120.9,
+   "right": 269.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 321,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 73.7,
+   "right": 336.5,
+   "w": 262.8,
+   "scrollW": 263,
+   "font": "10.53px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 32.5,
+   "right": 357.5,
+   "w": 324.9,
+   "scrollW": 325,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 376,
+   "w": 362,
+   "scrollW": 362,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 414
+{
+ "viewport": {
+  "innerWidth": 414,
+  "clientWidth": 414,
+  "scrollWidth": 414,
+  "bodyScrollW": 414
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 14,
+   "right": 400,
+   "w": 386,
+   "scrollW": 385,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 146.4,
+   "right": 267.5,
+   "w": 121.1,
+   "scrollW": 121,
+   "font": "19.044px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 86.8,
+   "right": 327.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 71,
+   "right": 343,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 132.9,
+   "right": 281.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 343,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 343,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 78.1,
+   "right": 356.9,
+   "w": 278.8,
+   "scrollW": 279,
+   "font": "11.178px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 33.6,
+   "right": 380.4,
+   "w": 346.8,
+   "scrollW": 347,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 14,
+   "right": 400,
+   "w": 386,
+   "scrollW": 386,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 768
+{
+ "viewport": {
+  "innerWidth": 768,
+  "clientWidth": 768,
+  "scrollWidth": 768,
+  "bodyScrollW": 768
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 144,
+   "right": 624,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 317.8,
+   "right": 450.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 263.8,
+   "right": 504.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 248,
+   "right": 520,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 309.9,
+   "right": 458.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 250.9,
+   "right": 538.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 169,
+   "right": 599,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 167.4,
+   "right": 600.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}
+=== 1280
+{
+ "viewport": {
+  "innerWidth": 1280,
+  "clientWidth": 1280,
+  "scrollWidth": 1280,
+  "bodyScrollW": 1280
+ },
+ "pixelFontLoaded": true,
+ "overflowing": [],
+ "key": {
+  ".card": {
+   "sel": "main.card",
+   "left": 400,
+   "right": 880,
+   "w": 480,
+   "scrollW": 479,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".profile": {
+   "sel": "header.profile",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".name": {
+   "sel": "h1.name",
+   "left": 573.8,
+   "right": 706.1,
+   "w": 132.3,
+   "scrollW": 132,
+   "font": "20.8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".tagline": {
+   "sel": "p.tagline",
+   "left": 519.8,
+   "right": 760.2,
+   "w": 240.5,
+   "scrollW": 240,
+   "font": "13.12px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".stage": {
+   "sel": "div.stage",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  "#dragon": {
+   "sel": "canvas#dragon",
+   "left": 504,
+   "right": 776,
+   "w": 272,
+   "scrollW": 272,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".status": {
+   "sel": "p.status",
+   "left": 565.9,
+   "right": 714.1,
+   "w": 148.3,
+   "scrollW": 148,
+   "font": "8px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".links": {
+   "sel": "nav.links",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "16px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".btn": {
+   "sel": "a.btn.btn--primary",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn--primary": {
+   "sel": "a.btn.btn--primary",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 426,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".btn__label": {
+   "sel": "span.btn__label",
+   "left": 506.9,
+   "right": 794.4,
+   "w": 287.5,
+   "scrollW": 288,
+   "font": "11.52px",
+   "family": "Press Start 2P",
+   "white": "normal"
+  },
+  ".note": {
+   "sel": "p.note",
+   "left": 425,
+   "right": 855,
+   "w": 430,
+   "scrollW": 430,
+   "font": "12.48px",
+   "family": "system-ui",
+   "white": "normal"
+  },
+  ".disclaimer": {
+   "sel": "footer.disclaimer",
+   "left": 423.4,
+   "right": 856.6,
+   "w": 433.3,
+   "scrollW": 433,
+   "font": "10.88px",
+   "family": "system-ui",
+   "white": "normal"
+  }
+ }
+}

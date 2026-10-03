@@ -1,0 +1,14 @@
+﻿width=390 scale=5 mode=hot polls=0 corePx=498 brightPx=534   at shot: brightPx=629 mouthCellPx=16
+bright columns at shot: 24..28   (red snout ends col 23, mouth cells 24-25) -> core on the 1st mouth cell: welded
+raw mouth band, rows 7-9   (warm = r-b>40, dim = faded flame)
+  col 21  maxR=255  maxG=42  warmPx=191  dimPx=1
+  col 22  maxR=233  maxG=11  warmPx=192  dimPx=0
+  col 23  maxR=231  maxG=44  warmPx=192  dimPx=5
+  col 24  maxR=242  maxG=96  warmPx=192  dimPx=104
+  col 25  maxR=255  maxG=224  warmPx=192  dimPx=0
+  col 26  maxR=255  maxG=224  warmPx=192  dimPx=0
+  col 27  maxR=255  maxG=225  warmPx=192  dimPx=0
+  col 28  maxR=255  maxG=224  warmPx=192  dimPx=26
+  col 29  maxR=255  maxG=224  warmPx=192  dimPx=11
+mouth cell col 24: 192 warm px, 104 faded-flame px -> flame still reaches the mouth (faded, not detached)
+canvas css=272x128 backing=272x128 -> C:\Xampp\htdocs\Trade_Ryuusd\_dragon.png

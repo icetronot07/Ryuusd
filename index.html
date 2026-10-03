@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RYUUSD | Forex &amp; Crypto Trader — Signals &amp; Education</title>
+<meta name="description" content="Forex &amp; crypto trader. Free signals, education and market updates. Join the Telegram channel or open a broker account.">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="color-scheme" content="dark">
+
+<!-- Emoji favicon (inline SVG data-URI, no image file) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%90%89%3C/text%3E%3C/svg%3E">
+
+<!-- Open Graph / Twitter: replace yourdomain.com and add a 1200x630 og-image.png -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RYUUSD">
+<meta property="og:title" content="RYUUSD | Forex &amp; Crypto Trader">
+<meta property="og:description" content="Free signals, education &amp; market updates. Tap to join the Telegram channel.">
+<meta property="og:url" content="https://yourdomain.com/">
+<meta property="og:image" content="https://yourdomain.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RYUUSD | Forex &amp; Crypto Trader">
+<meta name="twitter:description" content="Free signals, education &amp; market updates. Tap to join the Telegram channel.">
+<meta name="twitter:image" content="https://yourdomain.com/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+
+<style>
+:root{
+  --bg:#0a0a0a;
+  --red:#e10600;
+  --red-2:#ff1a1a;
+  --red-deep:#4a0808;
+  --txt:#ececec;
+  --txt-dim:#9a9a9a;
+  --pixel:"Press Start 2P", ui-monospace, "Courier New", monospace;
+  --sans:system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  min-height:100vh;
+  min-height:100dvh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  padding:26px 14px calc(16px + env(safe-area-inset-bottom));
+  background:var(--bg);
+  color:var(--txt);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.55;
+  overflow-x:hidden;
+  -webkit-tap-highlight-color:transparent;
+}
+/* --- ambient background: red glow + pixel grid + scanlines --- */
+body::before{
+  content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+  background:
+    radial-gradient(95% 55% at 50% -8%, rgba(225,6,0,.22), transparent 62%),
+    radial-gradient(70% 45% at 50% 108%, rgba(225,6,0,.12), transparent 62%);
+}
+body::after{
+  content:""; position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.5;
+  background-image:
+    repeating-linear-gradient(180deg, rgba(255,255,255,.045) 0 1px, transparent 1px 3px),
+    linear-gradient(rgba(225,6,0,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(225,6,0,.05) 1px, transparent 1px);
+  background-size:100% 3px, 40px 40px, 40px 40px;
+}
+/* --- card --- */
+.card{
+  position:relative; z-index:1;
+  width:100%; max-width:480px;
+  padding:clamp(20px,5.5vw,30px) clamp(14px,4.5vw,24px);
+  background:linear-gradient(180deg, rgba(19,19,19,.94), rgba(9,9,9,.94));
+  border:1px solid rgba(225,6,0,.30);
+  box-shadow:0 0 0 1px rgba(0,0,0,.85) inset, 0 0 30px rgba(225,6,0,.13), 0 16px 50px rgba(0,0,0,.65);
+}
+.card::before,.card::after{
+  content:""; position:absolute; width:16px; height:16px; pointer-events:none;
+}
+.card::before{top:-1px; left:-1px; border-top:2px solid var(--red-2); border-left:2px solid var(--red-2);}
+.card::after{bottom:-1px; right:-1px; border-bottom:2px solid var(--red-2); border-right:2px solid var(--red-2);}
+/* --- header --- */
+.profile{display:flex; flex-direction:column; align-items:center; text-align:center; gap:10px}
+.logo{
+  display:block; width:56px; height:52px; image-rendering:pixelated;
+  filter:drop-shadow(0 0 9px rgba(225,6,0,.6));
+  outline:1px solid rgba(225,6,0,.28); outline-offset:4px;
+}
+.name{
+  margin:4px 0 0;
+  font-family:var(--pixel); font-weight:400;
+  font-size:clamp(.95rem,4.6vw,1.3rem);
+  letter-spacing:.06em; color:#fff; line-height:1.4;
+  text-shadow:0 0 10px rgba(255,26,26,.55), 2px 2px 0 rgba(74,8,8,.95);
+}
+.tagline{margin:0; font-size:.82rem; color:var(--txt-dim); max-width:34ch}
+/* --- dragon stage --- */
+.stage{
+  position:relative; display:flex; flex-direction:column; align-items:center; gap:4px;
+  margin:16px 0 20px;
+}
+.stage::before{
+  content:""; position:absolute; top:-10px; left:50%; transform:translateX(-50%);
+  width:250px; height:120px; pointer-events:none;
+  background:radial-gradient(closest-side, rgba(225,6,0,.30), rgba(225,6,0,0) 72%);
+}
+#dragon{position:relative; display:block; image-rendering:pixelated}
+.status{
+  position:relative; margin:0;
+  font-family:var(--pixel); font-size:.5rem; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--red-2);
+}
+.cursor{display:inline-block; animation:blink 1.1s steps(1,end) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+/* --- buttons --- */
+.links{display:flex; flex-direction:column; gap:12px; margin-bottom:14px}
+.btn{
+  position:relative; overflow:hidden;
+  display:flex; align-items:center; justify-content:center; gap:.55rem;
+  min-height:58px; padding:15px 14px;
+  font-family:var(--pixel); font-size:clamp(.58rem,2.7vw,.72rem); line-height:1.5;
+  letter-spacing:.04em; text-transform:uppercase; text-align:center;
+  color:#fff; text-decoration:none;
+  background:linear-gradient(180deg,#1b0202,#0e0101);
+  border:2px solid #3a0404;
+  box-shadow:0 0 0 1px rgba(0,0,0,.9) inset, 4px 4px 0 0 rgba(225,6,0,.16);
+  transition:transform .09s ease, box-shadow .22s ease, border-color .22s ease;
+}
+.btn__icon,.btn__label{position:relative; z-index:1}
+.btn__icon{opacity:.9; font-size:1.05em}
+.btn--primary{
+  background:linear-gradient(180deg,var(--red-2),#b80400);
+  border-color:#ff5f5f;
+  text-shadow:0 2px 0 rgba(0,0,0,.45);
+  box-shadow:0 0 0 1px rgba(0,0,0,.5) inset, 0 0 20px rgba(225,6,0,.45), 4px 4px 0 0 rgba(110,0,0,.55);
+}
+.btn::after{
+  content:""; position:absolute; top:-20%; bottom:-20%; left:-60%; width:45%;
+  pointer-events:none; opacity:0; transform:skewX(-18deg);
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.30), transparent);
+}
+.btn:hover,.btn:focus-visible,.btn:active{
+  border-color:var(--red-2);
+  transform:translateY(-1px);
+  animation:glowPulse 1.1s ease-in-out infinite;
+}
+.btn:active{transform:translateY(1px)}
+.btn:hover::after,.btn:focus-visible::after,.btn:active::after{animation:sweep .85s ease-out infinite}
+.btn:hover .btn__label,.btn:focus-visible .btn__label,.btn:active .btn__label{
+  animation:glitch .42s steps(1,end) infinite;
+}
+.btn:focus-visible{outline:2px solid #fff; outline-offset:3px}
+@keyframes glowPulse{
+  0%,100%{box-shadow:0 0 0 1px rgba(0,0,0,.85) inset, 0 0 12px rgba(225,6,0,.40), 4px 4px 0 0 rgba(225,6,0,.20)}
+  50%{box-shadow:0 0 0 1px rgba(0,0,0,.85) inset, 0 0 28px rgba(255,26,26,.80), 4px 4px 0 0 rgba(255,26,26,.38)}
+}
+@keyframes sweep{0%{left:-60%; opacity:0}15%{opacity:.9}100%{left:115%; opacity:0}}
+@keyframes glitch{
+  0%,100%{transform:translate(0,0); text-shadow:0 0 8px rgba(255,255,255,.35)}
+  25%{transform:translate(-2px,0); text-shadow:2px 0 var(--red-2), -2px 0 rgba(0,0,0,.85)}
+  50%{transform:translate(2px,1px); text-shadow:-3px 0 rgba(255,255,255,.85), 3px 0 var(--red-2)}
+  75%{transform:translate(-1px,-1px); text-shadow:1px 0 var(--red-2), -1px 0 rgba(255,255,255,.6)}
+}
+/* --- note + footer --- */
+.note{margin:0; text-align:center; font-size:.78rem; color:var(--txt-dim)}
+.note b{color:var(--red-2); font-weight:600}
+.disclaimer{
+  position:relative; z-index:1;
+  max-width:480px; margin:0; padding:11px 6px 0;
+  border-top:1px dashed rgba(225,6,0,.28);
+  font-size:.68rem; line-height:1.6; color:#7e7e7e; text-align:center;
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:.001ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;
+  }
+  .cursor{opacity:1}
+}
+
+</style>
+</head>
+<body>
+<!-- ============================================================
+     EDIT ME: 1) trader name  2) tagline  3) Telegram link  4) broker link
+     ============================================================ -->
+<main class="card">
+
+  <header class="profile">
+    <canvas id="logo" class="logo" width="56" height="52" role="img" aria-label="RYUUSD pixel dragon logo"></canvas>
+    <h1 class="name">RYUUSD</h1>
+    <p class="tagline">Forex &amp; Crypto Trader | Signals | Education</p>
+  </header>
+
+  <div class="stage">
+    <canvas id="dragon" width="272" height="128" aria-hidden="true"></canvas>
+    <p class="status">&gt; signals_online<span class="cursor">_</span></p>
+  </div>
+
+  <nav class="links" aria-label="Main links">
+    <!-- REPLACE href with your Telegram invite link -->
+    <a class="btn btn--primary"
+       href="https://t.me/+thELUt9Wnvw4MDY1"
+       target="_blank" rel="noopener noreferrer">
+      <span class="btn__icon" aria-hidden="true">&#9992;</span>
+      <span class="btn__label">Ryuusd Telegram Channel</span>
+    </a>
+    <!-- REPLACE href with your broker affiliate link -->
+    <a class="btn"
+       href="https://one.versustrade.link/links/go/72221?pid=154644"
+       target="_blank" rel="noopener noreferrer">
+      <span class="btn__icon" aria-hidden="true">&#8599;</span>
+      <span class="btn__label">Ryu Pakai Broker ni</span>
+    </a>
+  </nav>
+
+  <p class="note">Join the community for <b>free signals</b> and market updates.</p>
+</main>
+
+<footer class="disclaimer">
+  Trading involves risk. Not financial advice. Only trade with money you can afford to lose.
+</footer>
+<script>
+(function () {
+  'use strict';
+
+  /* Pixel palette (every sprite character maps to one colour) */
+  var PAL = {
+    R: '#e10600', /* blood red   */
+    r: '#ff1a1a', /* highlight   */
+    m: '#8a0f0f', /* scale shade */
+    d: '#4a0808', /* outline     */
+    k: '#140000', /* deep dark   */
+    w: '#ffe6e6', /* eye white   */
+    y: '#ffe066', /* flame core  */
+    o: '#ff8a00'  /* flame mid   */
+  };
+
+  /* ---- The dragon: 2 flap frames (wing raised / wing swept back) ----
+     '.' = transparent pixel. Rows/cols are pixel cells, head faces RIGHT.
+     Horn 1-2, head 3-7 (eye 19/20, open mouth 21/22), wing 0-5 with a dark
+     membrane 'm' and a lit 'r/R' leading edge, shadow line row 6, solid neck
+     row 7, body 8-12 with the tail tapering to a point at the far left,
+     legs 13-15.  Mouth is at x=21/22, y=7 -> fire is emitted from there.   */
+  var DRAGON_UP = [
+    '.....dm.................',
+    '...drRmmd.........dRd...',
+    '..drRRmmmd.......dRRd...',
+    '..drRRmmmmmd....drRRRRRd',
+    '...drRRmmmmmd...drRRRRkd',
+    '....drRRmmmmmmd.drRwkRRd',
+    '......dddddddddddrRRRRRd',
+    '.........dRRRRRRRRRRRkk.',
+    '....drRRRRRRRRRRRd......',
+    '..drRRRRRRRRRRRRd.......',
+    'drRRRRRRRRRRRRRd........',
+    '..dRRRRRRRRRRRd.........',
+    '....dmRRRRRRmd..........',
+    '....dRRd.dRRd...........',
+    '....dRRd.dRRd...........',
+    '....dddd.dddd...........'
+  ];
+  var DRAGON_DOWN = [
+    '........................',
+    '..................dRd...',
+    '.........dm......dRRd...',
+    '.......drRmmd...drRRRRRd',
+    '.....drRRmmmmmd.drRRRRkd',
+    '...drRRmmmmmmmd.drRwkRRd',
+    '.....ddddddddddddrRRRRRd',
+    '.........dRRRRRRRRRRRkk.',
+    '....drRRRRRRRRRRRd......',
+    '..drRRRRRRRRRRRRd.......',
+    'drRRRRRRRRRRRRRd........',
+    '..dRRRRRRRRRRRd.........',
+    '....dmRRRRRRmd..........',
+    '....dRRd.dRRd...........',
+    '....dRRd.dRRd...........',
+    '....dddd.dddd...........'
+  ];
+
+  /* ---- Small pixel dragon-head logo for the header ---- */
+  var LOGO = [
+    '....d....d',
+    '...dRd..dRd',
+    '...dRd..dRd',
+    '...dRRddRRd',
+    '...dRRRRRRd',
+    '..dRRRRRRRRd',
+    '.dRwkRRRRRRRd',
+    '.dRRRRRRRRRRRd',
+    '.dRRRRRRRRRddd',
+    '.dRRRRRRRRRRd',
+    '..dRRRRRRRRd',
+    '...dRRRRRRd',
+    '....dddddd'
+  ];
+
+  /* Size one canvas to (cols x rows) pixel cells and return its 2d context */
+  function makeCanvas(canvas, cols, rows, cell) {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(cols * cell * dpr);
+    canvas.height = Math.round(rows * cell * dpr);
+    canvas.style.width = (cols * cell) + 'px';
+    canvas.style.height = (rows * cell) + 'px';
+    var ctx = canvas.getContext('2d');
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.imageSmoothingEnabled = false;
+    return ctx;
+  }
+
+  /* Paint a sprite of string rows as chunky pixel blocks.
+     ox/oy are cell offsets, px/py are sub-cell pixel offsets (for bobbing). */
+  function drawSprite(ctx, sprite, ox, oy, cell, px, py) {
+    px = px || 0; py = py || 0;
+    for (var y = 0; y < sprite.length; y++) {
+      var row = sprite[y];
+      for (var x = 0; x < row.length; x++) {
+        var color = PAL[row.charAt(x)];
+        if (!color) continue;
+        ctx.fillStyle = color;
+        ctx.fillRect((ox + x) * cell + px, (oy + y) * cell + py, cell, cell);
+      }
+    }
+  }
+
+  /* ---- static header logo ---- */
+  var logoCanvas = document.getElementById('logo');
+  if (logoCanvas) drawSprite(makeCanvas(logoCanvas, 14, 13, 4), LOGO, 0, 0, 4);
+  /* ---- animated dragon ---- */
+  var stage = document.querySelector('.stage');
+  var dragonCanvas = document.getElementById('dragon');
+  var COLS = 34, ROWS = 16, SPRITE_X = 3;   /* sprite sits 3 cells in, fire uses the rest */
+  var CELL = 8, ctx = null, glowGrad = null;
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var particles = [];
+  var nextFire = 0, glowUntil = 0, rafId = 0, resizeTimer = 0;
+
+  function easeOut(p) { return 1 - (1 - p) * (1 - p); }
+  /* Colour by age in ms: white-hot core -> orange body -> red ember -> smoke.
+     The whole puff cools on one shared clock, and the pre-roll in spawnFire()
+     scales with travel, so the blocks sitting on the mouth are always the last
+     ones to leave the white-hot phase: the plume stays welded to the muzzle. */
+  function flameColor(age) {
+    if (age < 340) return PAL.y;   /* white-hot core */
+    if (age < 640) return PAL.o;   /* orange body    */
+    if (age < 860) return PAL.R;   /* red ember      */
+    return PAL.d;                  /* dark smoke     */
+  }
+
+  /* Fit the pixel grid to the card, size the canvas, rebuild the muzzle glow */
+  function layout() {
+    var avail = (stage && stage.clientWidth) ? stage.clientWidth : 300;
+    CELL = Math.max(4, Math.min(8, Math.floor(avail / COLS)));
+    ctx = makeCanvas(dragonCanvas, COLS, ROWS, CELL);
+    glowGrad = ctx.createRadialGradient(0, 0, 0, 0, 0, CELL * 5.5);
+    glowGrad.addColorStop(0, 'rgba(255,190,90,.95)');
+    glowGrad.addColorStop(0.45, 'rgba(225,6,0,.55)');
+    glowGrad.addColorStop(1, 'rgba(225,6,0,0)');
+    particles.length = 0;
+    if (reduceMotion) drawFrame(0, false);
+  }
+
+  /* One fire-breathe puff in three tiers, so the jet is anchored to the muzzle:
+     12 fast white-hot jet blocks, 20 embers fanning into a widening cone, and 2
+     muzzle blocks that sit on the mouth itself.  Every block starts on the same
+     cooling clock and the pre-roll grows with travel, so the blocks nearest the
+     mouth are the youngest and the last to cool. */
+  function spawnFire(now) {
+    for (var i = 0; i < 34; i++) {
+      var tier = i < 12 ? 0 : (i < 32 ? 1 : 2);
+      var dist, dur, dy, rise, size;
+      if (tier === 0) {                                  /* leading jet     */
+        dist = 1.4 + Math.random() * 2.2;
+        dur = 840 + Math.random() * 420;
+        dy = (Math.random() - 0.5) * 1.2;
+        rise = 0.1 + Math.random() * 0.4;
+        size = 2;
+      } else if (tier === 1) {                           /* cone of embers  */
+        dist = 0.6 + Math.random() * 4.4;
+        dur = 700 + Math.random() * 400;
+        dy = (Math.random() - 0.5) * 3.2;
+        rise = 0.3 + Math.random() * 1.0;
+        size = dist < 2.4 || Math.random() < 0.32 ? 2 : 1;
+      } else {                                           /* muzzle blocks   */
+        dist = Math.random() * 0.8;
+        dur = 900 + Math.random() * 380;
+        dy = (Math.random() - 0.5) * 1.0;
+        rise = 0.05 + Math.random() * 0.25;
+        size = 2;
+      }
+      particles.push({
+        born: now - Math.random() * 55 * Math.min(1, dist / 4.4),
+        dur: dur,
+        dist: dist,
+        dy: dy,
+        rise: rise,
+        size: size
+      });
+    }
+  }
+
+  function drawFrame(now, animate) {
+    ctx.clearRect(0, 0, COLS * CELL, ROWS * CELL);
+
+    /* bob upward only: the sprite fills the grid, so a negative offset keeps the feet from clipping */
+    var bob = animate ? -Math.abs(Math.round(Math.sin(now / 420) * 3)) : 0;
+    var drift = animate ? Math.round(Math.sin(now / 2600) * 10) : 0;  /* slow sway    */
+    var wingsUp = !animate || Math.floor(now / 170) % 2 === 0;        /* wing flap    */
+
+    ctx.fillStyle = 'rgba(225,6,0,.08)';
+    ctx.fillRect(SPRITE_X * CELL + drift + CELL * 2, 15 * CELL, CELL * 14, 2);
+
+    drawSprite(ctx, wingsUp ? DRAGON_UP : DRAGON_DOWN, SPRITE_X, 0, CELL, drift, bob);
+    if (!animate) return;
+
+    /* muzzle position: the mouth pixels sit at sprite cells (21,7)/(22,7),
+       i.e. canvas cols 24-25, whose centre is x = 25 cells, so the glow is
+       centred on the mouth opening while the flame leaves from col 24 - the
+       mouth pixel that touches the solid snout at col 23 */
+    var mouthX = (SPRITE_X + 21.6) * CELL + drift;
+    var mouthY = (7.5) * CELL + bob;
+
+    if (now > nextFire) {
+      spawnFire(now);
+      nextFire = now + 2600 + Math.random() * 1600;
+      glowUntil = now + 780;
+    }
+    var glowAlpha = Math.max(0, Math.min(1, (glowUntil - now) / 780));
+    if (glowAlpha > 0.01) {
+      ctx.save();
+      ctx.globalAlpha = glowAlpha;
+      ctx.translate(mouthX + CELL * 0.5, mouthY - CELL * 0.5);
+      ctx.fillStyle = glowGrad;
+      ctx.beginPath();
+      ctx.arc(0, 0, CELL * 5.5, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+
+    var alive = [];
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      var age = now - p.born;
+      if (age < 0) { alive.push(p); continue; }        /* not born yet */
+      if (age > p.dur) continue;                       /* burned out   */
+      var prog = age / p.dur, e = easeOut(prog);
+      /* leave from the open mouth: sprite cell 21 on row 7 = canvas col 24, the
+         mouth pixel that touches the solid snout (col 23), so even the first
+         block of a puff overlaps the muzzle instead of floating past it */
+      var x = (SPRITE_X + 21.4 + p.dist * e) * CELL + drift;
+      var y = (7.4 + p.dy * e - p.rise * prog) * CELL + bob;
+      ctx.globalAlpha = Math.max(0, 1 - prog * 0.6);
+      ctx.fillStyle = flameColor(age);
+      ctx.fillRect(Math.round(x), Math.round(y), p.size * CELL, p.size * CELL);
+      alive.push(p);
+    }
+    ctx.globalAlpha = 1;
+    particles = alive;
+  }
+
+  function loop(now) {
+    drawFrame(now, true);
+    rafId = window.requestAnimationFrame(loop);
+  }
+  function start() { if (!rafId) rafId = window.requestAnimationFrame(loop); }
+  function stop() { if (rafId) { window.cancelAnimationFrame(rafId); rafId = 0; } }
+
+  /* Battery friendly: freeze the drawing while the tab is in the background */
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) { stop(); return; }
+    if (!reduceMotion) { particles.length = 0; nextFire = 0; glowUntil = 0; start(); }
+  });
+
+  window.addEventListener('resize', function () {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(layout, 180);
+  });
+
+  function init() {
+    if (!dragonCanvas) return;
+    layout();
+    if (reduceMotion) return;               /* honour the OS motion setting */
+    nextFire = performance.now() + 800;     /* first puff shortly after load */
+    start();
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+</body>
+</html>

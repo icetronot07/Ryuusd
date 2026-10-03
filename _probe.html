@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>layout probe</title>
+<style>html,body{margin:0;background:#111;color:#0f0;font:12px monospace}
+iframe{width:390px;height:780px;border:0;display:block}</style>
+</head>
+<body>
+<iframe id="f" src="index.html"></iframe>
+<pre id="out">pending</pre>
+<script>
+document.getElementById('f').addEventListener('load', function () {
+  setTimeout(function () {
+    var f = document.getElementById('f');
+    var w = f.contentWindow, d = f.contentDocument, L = [];
+    function rect(sel) {
+      var el = d.querySelector(sel);
+      if (!el) { L.push(sel + ' MISSING'); return; }
+      var r = el.getBoundingClientRect();
+      L.push(sel + '  x=' + r.x.toFixed(1) + ' right=' + r.right.toFixed(1) +
+             ' w=' + r.width.toFixed(1) + ' y=' + r.y.toFixed(1) + ' h=' + r.height.toFixed(1) +
+             ' scrollW=' + el.scrollWidth + ' clientW=' + el.clientWidth);
+    }
+    L.push('innerWidth=' + w.innerWidth + ' innerHeight=' + w.innerHeight + ' dpr=' + w.devicePixelRatio);
+    L.push('docScrollW=' + d.documentElement.scrollWidth + ' bodyScrollW=' + d.body.scrollWidth);
+    ['main.card', '.profile', '#logo', '.name', '.tagline', '.stage', '#dragon', '.status',
+     'nav.links', '.btn', '.btn--primary', '.btn__label', '.note', 'footer.disclaimer'].forEach(rect);
+
+    var label = d.querySelector('.btn__label');
+    var ff = label ? w.getComputedStyle(label).fontFamily : '?';
+    var fs = label ? w.getComputedStyle(label).fontSize : '?';
+    L.push('label fontFamily=' + ff + ' fontSize=' + fs);
+    L.push('fonts loaded? ' + (d.fonts ? d.fonts.check('12px "Press Start 2P"') : 'n/a'));
+
+    var over = [];
+    Array.prototype.forEach.call(d.querySelectorAll('*'), function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.width && r.right > w.innerWidth + 0.5) {
+        over.push((el.tagName + '.' + (el.className || '')).slice(0, 28) + ' right=' + r.right.toFixed(1) + ' w=' + r.width.toFixed(1));
+      }
+    });
+    L.push('overflowing elements (' + over.length + '):');
+    L.push(over.slice(0, 12).join(' | '));
+    document.getElementById('out').textContent = L.join('\n');
+  }, 2500);
+});
+</script>
+</body>
+</html>
